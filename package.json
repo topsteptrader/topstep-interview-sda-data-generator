@@ -1,0 +1,16 @@
+{
+  "name": "topstep-interview-sda-data-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "generate": "node generate.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "csv-writer": "^1.6.0",
+    "lodash.flatten": "^4.4.0",
+    "@faker-js/faker": "^7.6.0"
+  }
+}
